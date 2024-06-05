@@ -24,5 +24,213 @@
 
     "git.mergeEditor": true,
 
-    "security.workspace.trust.untrustedFiles": "open"
+    "security.workspace.trust.untrustedFiles": "open",
+
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+
+    "vim.leader": "<space>",
+    "vim.useSystemClipboard": true,
+
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        },
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+    ],
+
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["K"],
+            "commands": ["editor.action.moveLinesUpAction"]
+        },
+        {
+            "before": ["J"],
+            "commands": ["editor.action.moveLinesDownAction"]
+        }
+    ],
+
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["<C-d>"],
+            "after": ["<C-d>", "z", "z"]
+        },
+        {
+            "before": ["<C-u>"],
+            "after": ["<C-u>", "z", "z"]
+        },
+        {
+            "before": ["<C-i>"],
+            "after": ["<C-i>", "z", "z"]
+        },
+        {
+            "before": ["<C-o>"],
+            "after": ["<C-o>", "z", "z"]
+        },
+        {
+            "before": ["n"],
+            "after": ["n", "z", "z", "z", "v"]
+        },
+        {
+            "before": ["N"],
+            "after": ["N", "z", "z", "z", "v"]
+        },
+        {
+            "before": ["E"],
+            "after": ["$"]
+        },
+        {
+            "before": ["B"],
+            "after": ["^"]
+        },
+        {
+            "before": ["Q", "Q"],
+            "commands": ["workbench.action.closeAllEditors"]
+        },
+        {
+            "before": ["W", "W"],
+            "commands": ["workbench.action.files.saveFiles"]
+        },
+        {
+            "before": ["s", "s"],
+            "commands": [":noh<CR>"]
+        },
+        {
+            "before": ["<leader>", "s", "v"],
+            "commands": ["workbench.action.splitEditorRight"]
+        },
+        {
+            "before": ["<leader>", "s", "h"],
+            "commands": ["workbench.action.splitEditorDown"]
+        },
+        {
+            "before": ["<leader>", "s", "V"],
+            "commands": ["workbench.action.splitEditorLeft"]
+        },
+        {
+            "before": ["<leader>", "s", "H"],
+            "commands": ["workbench.action.splitEditorUp"]
+        },
+        {
+            "before": ["<leader>", "s", "e"],
+            "after": ["<C-w>", "="]
+        },
+        {
+            "before": ["<leader>", "s", "x"],
+            "commands": ["workbench.action.closeActiveEditor"]
+        },
+        {
+            "before": ["<C-h>"],
+            "after": ["<C-w>", "h"]
+        },
+        {
+            "before": ["<C-j>"],
+            "after": ["<C-w>", "j"]
+        },
+        {
+            "before": ["<C-k>"],
+            "after": ["<C-w>", "k"]
+        },
+        {
+            "before": ["<C-l>"],
+            "after": ["<C-w>", "l"]
+        }
+    ],
+
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "f", "f"],
+            "commands": ["workbench.action.quickOpen"]
+        },
+        {
+            "before": ["<leader>", "f", "p"],
+            "commands": ["git.openFile"]
+        },
+        {
+            "before": ["<leader>", "f", "g"],
+            "commands": [
+                {
+                    "command": "workbench.action.quickOpen",
+                    "args": ["%"]
+                }
+            ]
+        },
+        {
+            "before": ["<leader>", "f", "b"],
+            "commands": ["workbench.action.showAllEditors"]
+        },
+        {
+            "before": ["<leader>", "f", "c"],
+            "commands": ["workbench.action.showCommands"]
+        },
+        {
+            "before": ["<leader>", "c", "s"],
+            "commands": ["workbench.action.selectTheme"]
+        },
+        {
+            "before": ["g", "r"],
+            "commands": ["editor.action.referenceSearch.trigger"]
+        },
+        {
+            "before": ["g", "D"],
+            "commands": ["editor.action.revealDeclaration"]
+        },
+        {
+            "before": ["g", "d"],
+            "commands": ["editor.action.revealDefinition"]
+        },
+        {
+            "before": ["g", "i"],
+            "commands": ["editor.action.goToImplementation"]
+        },
+        {
+            "before": ["g", "t"],
+            "commands": ["editor.action.goToTypeDefinition"]
+        },
+        {
+            "before": ["<leader>", "d", "s"],
+            "commands": ["workbench.action.gotoSymbol"]
+        },
+        {
+            "before": ["<leader>", "w", "s"],
+            "commands": ["workbench.action.showAllSymbols"]
+        },
+        {
+            "before": ["<leader>", "r", "n"],
+            "commands": ["editor.action.rename"]
+        },
+        {
+            "before": ["<leader>", "D"],
+            "commands": ["workbench.action.problems.focus"]
+        },
+        {
+            "before": ["<leader>", "d"],
+            "commands": ["editor.action.showHover"]
+        },
+        {
+            "before": ["[", "d"],
+            "commands": ["editor.action.marker.prev"]
+        },
+        {
+            "before": ["]", "d"],
+            "commands": ["editor.action.marker.next"]
+        },
+        {
+            "before": ["K"],
+            "commands": ["editor.action.showHover"]
+        },
+        {
+            "before": ["<C-k>"],
+            "commands": ["editor.action.triggerParameterHints"]
+        },
+        {
+            "before": ["<leader>", "r", "s"],
+            "commands": ["workbench.action.reloadWindow"]
+        }
+    ]
 }
