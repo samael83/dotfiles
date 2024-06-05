@@ -125,6 +125,10 @@
             "commands": ["workbench.action.closeActiveEditor"]
         },
         {
+            "before": ["<leader>", "v", "c"],
+            "commands": ["git.viewChanges", "workbench.action.moveEditorToNewWindow"]
+        },
+        {
             "before": ["<C-h>"],
             "after": ["<C-w>", "h"]
         },
