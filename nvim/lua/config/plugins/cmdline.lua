@@ -10,6 +10,7 @@ return {
                 smart_history = true,
                 prompt = "> "
             },
+
             popup = {
                 position = {
                     row = "37%",
@@ -30,6 +31,7 @@ return {
                     winhighlight = "Normal:Normal,FloatBorder:FloatBorder",
                 },
             },
+
             hooks = {
                 before_mount = function(input)
                     -- code
