@@ -1,0 +1,28 @@
+{
+    "workbench.colorTheme": "City Lights",
+    "workbench.iconTheme": "city-lights-icons-vsc",
+    "workbench.editor.revealIfOpen": true,
+    "workbench.activityBar.location": "default",
+
+    "editor.fontFamily": "Inconsolata, Consolas, 'Courier New', monospace",
+    "editor.fontWeight": 300,
+    "editor.fontSize": 15,
+    "editor.lineHeight": 1.7,
+    "editor.lineNumbers": "relative",
+    "editor.tabSize": 4,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.fontVariations": true,
+    "editor.autoClosingOvertype": "always",
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+        ]
+    },
+
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.hideUnchangedRegions.enabled": true,
+
+    "git.mergeEditor": true,
+
+    "security.workspace.trust.untrustedFiles": "open"
+}
