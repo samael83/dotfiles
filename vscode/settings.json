@@ -36,7 +36,8 @@
 
     "vim.handleKeys": {
         "<C-d>": true,
-        "<C-p>": false
+        "<C-p>": false,
+        "<C-b>": false
     },
 
     "vim.insertModeKeyBindings": [
