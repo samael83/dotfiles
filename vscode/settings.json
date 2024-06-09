@@ -2,7 +2,6 @@
     "workbench.colorTheme": "City Lights",
     "workbench.iconTheme": "city-lights-icons-vsc",
     "workbench.editor.revealIfOpen": true,
-    "workbench.activityBar.location": "default",
 
     "editor.fontFamily": "Inconsolata, Consolas, 'Courier New', monospace",
     "editor.fontWeight": 300,
@@ -23,8 +22,6 @@
     "diffEditor.hideUnchangedRegions.enabled": true,
 
     "git.mergeEditor": true,
-
-    "security.workspace.trust.untrustedFiles": "open",
 
     "extensions.experimental.affinity": {
         "vscodevim.vim": 1
@@ -66,11 +63,11 @@
         },
         {
             "before": ["<C-i>"],
-            "after": ["<C-i>", "z", "z"]
+            "commands": ["workbench.action.navigateForward"]
         },
         {
             "before": ["<C-o>"],
-            "after": ["<C-o>", "z", "z"]
+            "commands": ["workbench.action.navigateBack"]
         },
         {
             "before": ["n"],
@@ -97,7 +94,7 @@
             "commands": ["workbench.action.files.saveFiles"]
         },
         {
-            "before": ["s", "s"],
+            "before": ["<leader>", "s", "s"],
             "commands": [":noh<CR>"]
         },
         {
@@ -150,10 +147,6 @@
         {
             "before": ["<leader>", "f", "f"],
             "commands": ["workbench.action.quickOpen"]
-        },
-        {
-            "before": ["<leader>", "f", "p"],
-            "commands": ["git.openFile"]
         },
         {
             "before": ["<leader>", "f", "g"],
