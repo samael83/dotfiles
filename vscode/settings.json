@@ -1,7 +1,10 @@
 {
+    "window.menuBarVisibility": "compact",
+
     "workbench.colorTheme": "City Lights",
     "workbench.iconTheme": "city-lights-icons-vsc",
     "workbench.editor.revealIfOpen": true,
+    "workbench.layoutControl.type": "menu",
 
     "editor.fontFamily": "Inconsolata, Consolas, 'Courier New', monospace",
     "editor.fontWeight": 300,
@@ -12,6 +15,7 @@
     "editor.bracketPairColorization.enabled": false,
     "editor.fontVariations": true,
     "editor.autoClosingOvertype": "always",
+    "editor.overviewRulerBorder": false,
 
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -29,6 +33,11 @@
 
     "vim.leader": "<space>",
     "vim.useSystemClipboard": true,
+
+    "vim.handleKeys": {
+        "<C-d>": true,
+        "<C-p>": false
+    },
 
     "vim.insertModeKeyBindings": [
         {
@@ -122,6 +131,18 @@
             "commands": ["workbench.action.closeActiveEditor"]
         },
         {
+            "before": ["]", "c"],
+            "commands": ["workbench.action.editor.nextChange"]
+        },
+        {
+            "before": ["[", "c"],
+            "commands": ["workbench.action.editor.previousChange"]
+        },
+        {
+            "before": ["<leader>", "c", "c"],
+            "commands": ["editor.action.dirtydiff.next"]
+        },
+        {
             "before": ["<leader>", "v", "c"],
             "commands": ["git.viewChanges", "workbench.action.moveEditorToNewWindow"]
         },
@@ -160,10 +181,6 @@
         {
             "before": ["<leader>", "f", "b"],
             "commands": ["workbench.action.showAllEditors"]
-        },
-        {
-            "before": ["<leader>", "f", "c"],
-            "commands": ["workbench.action.showCommands"]
         },
         {
             "before": ["<leader>", "c", "s"],
