@@ -175,6 +175,10 @@
             "commands": ["workbench.action.quickOpen"]
         },
         {
+            "before": ["<leader>", "p", "v"],
+            "commands": ["workbench.action.showCommands"]
+        },
+        {
             "before": ["<leader>", "f", "g"],
             "commands": [
                 {
