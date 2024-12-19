@@ -6,7 +6,7 @@
     "workbench.editor.revealIfOpen": true,
     "workbench.layoutControl.type": "menu",
 
-    "editor.fontFamily": "Inconsolata, Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "'Inconsolata SemiExpanded', Inconsolata, Consolas, 'Courier New', monospace",
     "editor.fontWeight": 300,
     "editor.fontSize": 15,
     "editor.lineHeight": 1.7,
@@ -31,13 +31,17 @@
         "vscodevim.vim": 1
     },
 
+    "go.toolsManagement.autoUpdate": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+
     "vim.leader": "<space>",
     "vim.useSystemClipboard": true,
 
     "vim.handleKeys": {
         "<C-d>": true,
         "<C-p>": false,
-        "<C-b>": false
+        "<C-b>": false,
+        "<C-j>": false
     },
 
     "vim.insertModeKeyBindings": [
