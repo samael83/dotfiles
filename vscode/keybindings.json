@@ -1,0 +1,23 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "command": "selectNextSuggestion",
+        "key": "tab",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "command": "selectPrevSuggestion",
+        "key": "shift+tab",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+        "key": "tab",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
+        "key": "shift+tab",
+        "when": "inFilesPicker && inQuickOpen"
+    }
+]
