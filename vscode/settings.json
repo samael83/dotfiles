@@ -176,7 +176,7 @@
         },
         {
             "before": ["<leader>", "p", "v"],
-            "commands": ["workbench.action.showCommands"]
+            "commands": ["breadcrumbs.focusAndSelect"]
         },
         {
             "before": ["<leader>", "f", "g"],
@@ -194,6 +194,10 @@
         {
             "before": ["<leader>", "c", "s"],
             "commands": ["workbench.action.selectTheme"]
+        },
+        {
+            "before": ["g", "p"],
+            "commands": ["workbench.action.showCommands"]
         },
         {
             "before": ["g", "r"],
