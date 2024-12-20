@@ -254,6 +254,86 @@
         {
             "before": ["<leader>", "r", "s"],
             "commands": ["workbench.action.reloadWindow"]
+        },
+        {
+            "before": ["<leader>", "h", "a"],
+            "commands": ["vscode-harpoon.addEditor"]
+        },
+        {
+            "before": ["<leader>", "h", "e"],
+            "commands": ["vscode-harpoon.editEditors"]
+        },
+        {
+            "before": ["<leader>", "h", "s", "1"],
+            "commands": ["vscode-harpoon.addEditor1"]
+        },
+        {
+            "before": ["<leader>", "h", "s", "2"],
+            "commands": ["vscode-harpoon.addEditor2"]
+        },
+        {
+            "before": ["<leader>", "h", "s", "3"],
+            "commands": ["vscode-harpoon.addEditor3"]
+        },
+        {
+            "before": ["<leader>", "h", "s", "4"],
+            "commands": ["vscode-harpoon.addEditor4"]
+        },
+        {
+            "before": ["<leader>", "h", "s", "5"],
+            "commands": ["vscode-harpoon.addEditor5"]
+        },
+        {
+            "before": ["<leader>", "h", "s", "6"],
+            "commands": ["vscode-harpoon.addEditor6"]
+        },
+        {
+            "before": ["<leader>", "h", "s", "7"],
+            "commands": ["vscode-harpoon.addEditor7"]
+        },
+        {
+            "before": ["<leader>", "h", "s", "8"],
+            "commands": ["vscode-harpoon.addEditor8"]
+        },
+        {
+            "before": ["<leader>", "h", "s", "9"],
+            "commands": ["vscode-harpoon.addEditor9"]
+        },
+        {
+            "before": ["<leader>", "h", "1"],
+            "commands": ["vscode-harpoon.gotoEditor1"]
+        },
+        {
+            "before": ["<leader>", "h", "2"],
+            "commands": ["vscode-harpoon.gotoEditor2"]
+        },
+        {
+            "before": ["<leader>", "h", "3"],
+            "commands": ["vscode-harpoon.gotoEditor3"]
+        },
+        {
+            "before": ["<leader>", "h", "4"],
+            "commands": ["vscode-harpoon.gotoEditor4"]
+        },
+        {
+            "before": ["<leader>", "h", "5"],
+            "commands": ["vscode-harpoon.gotoEditor5"]
+        },
+        {
+            "before": ["<leader>", "h", "6"],
+            "commands": ["vscode-harpoon.gotoEditor6"]
+        },
+        {
+            "before": ["<leader>", "h", "7"],
+            "commands": ["vscode-harpoon.gotoEditor7"]
+        },
+        {
+            "before": ["<leader>", "h", "8"],
+            "commands": ["vscode-harpoon.gotoEditor8"]
+        },
+        {
+            "before": ["<leader>", "h", "9"],
+            "commands": ["vscode-harpoon.gotoEditor9"]
         }
     ]
 }
